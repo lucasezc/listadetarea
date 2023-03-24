@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    background-color: rgb(3, 32, 38);
+}
+
+.container{
+    position: relative;
+    width: 30.25em;
+    height: 14.25em;
+    background-color: rgb(66, 151, 151);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 34px;
+    top: 15px;
+    
+}
+
+.container_tarea{
+    position: relative;
+    right: 10px;
+}
+
+
+
+
+.container_back{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    height: 3.25rem;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+
+}
+.container h1{
+    position:absolute;
+    top: .975rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5em ;
+}
+
+
+
+.input_tarea{
+    color: rgb(234, 238, 243);
+    position: relative;
+    top: -35px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#inputNuevaTarea{
+    width: 30em;
+    height: 2.875em;
+    border: none;
+    text-align: center;
+}
+
+
+
+.data_tarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data_tarea-boton{
+    position: absolute;
+    width: 2.7875em;
+    height: 3.115em;
+    top: -2px;
+    right: -40px;
+}
+
+li{
+    list-style: none;
+}
+
+a.enlace-eliminar {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: green;
+}
+
+
+#contenedorTareas{
+    font-size: 25px;
+    background-color: rgb(66, 151, 151);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    top: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#contenedorTareas input{
+    width: 45px;
+    height: 20px;
+}
